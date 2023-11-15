@@ -95,13 +95,13 @@ char *envr(char *path)
  */
 int slash(char *str)
 {
-	int i = 0;
+	int j = 0;
 
-	while (str[i])
+	while (str[j])
 	{
-		if (str[i] == '/')
+		if (str[j] == '/')
 			return (1);
-		i++;
+		j++;
 	}
 	return (0);
 }
