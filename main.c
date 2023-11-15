@@ -10,7 +10,7 @@ char **tokenn(char *str)
 	char *token, **tokens;
 	int i = 0;
 
-	tokens = malloc(1025 * sizeof(char *));
+	tokens = malloc(sizeof(char *) * 1024);
 	if (tokens == NULL)
 	{
 		perror(str);
