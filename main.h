@@ -27,7 +27,7 @@ char *path(char *input, char *path);
 int exec_cmd(char *str, char *strr, char **stri, int error);
 int check_cmd(char **input, char *av, char *path_line, int error);
 
-/*print*/
+/*print functions*/
 void print_number(int n);
 void print(char *input, char *cmd, int error);
 void free_arr(char **arr);
