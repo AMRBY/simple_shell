@@ -1,1 +1,1 @@
-SIMPLE_SHELL.
+SIMPLE SHELL project.
