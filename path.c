@@ -66,9 +66,9 @@ int exec_cmd(char *cmd, char *av, char **arg, int error)
 	int status = 0;
 	int x = 0;
 
+	child = fork();
 	if (cmd != NULL)
 	{
-		child = fork();
 		if (child < 0)
 		{
 			perror(av);

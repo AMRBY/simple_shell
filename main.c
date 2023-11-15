@@ -101,7 +101,7 @@ int main(int __attribute__((unused)) ac, char **av, char **env)
 			continue;
 		}
 
-		path_line = envr("PATH1");
+		path_line = envr("PATH");
 		status = check_cmd(args, av[0], path_line, error);
 		free_arr(args);
 		free(path_line);
