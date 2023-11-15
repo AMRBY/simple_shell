@@ -67,7 +67,7 @@ int get(int status, char ***args)
 
 int main(int __attribute__((unused)) ac, char **av, char **env)
 {
-	int status, error = 0;
+	int status = 0, error = 0;
 	char **args = NULL, *path_line = NULL;
 	struct stat statbuff;
 
