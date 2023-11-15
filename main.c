@@ -36,10 +36,10 @@ char **tokenn(char *str)
 int get(int status, char ***args)
 {
 	char *buf = NULL;
-	size_t size_buf = 0;
+	size_t size = 0;
 	int i;
 
-	i = getline(&buf, &size_buf, stdin);
+	i = getline(&buf, &size, stdin);
 	if (i == -1)
 	{
 		free(buf);
